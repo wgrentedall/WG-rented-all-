@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WG Rented App</title>
+    <style>
+        body { font-family: sans-serif; background: #000; color: white; text-align: center; padding: 20px; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; }
+        .card { border: 2px solid #4285F4; border-radius: 30px; padding: 30px; background: #111; max-width: 350px; box-shadow: 0 10px 40px rgba(66, 133, 244, 0.4); }
+        .price { color: #34A853; font-size: 28px; font-weight: bold; margin: 15px 0; }
+        .btn-whatsapp { background: #25D366; color: white; padding: 15px 35px; border-radius: 50px; text-decoration: none; display: block; font-weight: bold; font-size: 18px; margin-top: 25px; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1 style="color: #4285F4;">WG RENTED</h1>
+        <div style="font-size: 80px; margin: 20px 0;">👤</div>
+        <h2>Kanhaya</h2>
+        <p style="color: #bbb;">Professional Companion & Partner</p>
+        <div class="price">₹500 / Hour</div>
+        <a href="https://wa.me/917461817653" class="btn-whatsapp">WhatsApp Booking</a>
+    </div>
+
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+        // Aapka Firebase Config (Jo Screenshot 1000157881.jpg mein tha)
+        const firebaseConfig = {
+          apiKey: "AIzaSyBHyBtTcDvz b4OsGAhNMK2m...",
+          authDomain: "wg-rented-app.firebaseapp.com",
+          projectId: "wg-rented-app",
+          storageBucket: "wg-rented-app.firebasestorage.app",
+          messagingSenderId: "1053168556464",
+          appId: "1:1053168556464:web:182e93923...",
+          measurementId: "G-C05MCPMYJG"
+        };
+        const app = initializeApp(firebaseConfig);
+    </script>
+</body>
+</html>
